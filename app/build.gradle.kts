@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.yeditepe.minduplast"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.yeditepe.minduplast"
