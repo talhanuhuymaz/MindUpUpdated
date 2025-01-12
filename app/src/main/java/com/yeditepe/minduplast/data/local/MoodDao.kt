@@ -1,6 +1,7 @@
 package com.yeditepe.minduplast.data.local
 
 import androidx.room.*
+
 import com.yeditepe.minduplast.domain.model.MoodEntry
 import kotlinx.coroutines.flow.Flow
 
