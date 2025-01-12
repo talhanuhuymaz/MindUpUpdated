@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
 import com.yeditepe.minduplast.presentation.screen.MainScreen
-import com.yeditepe.minduplast.ui.theme.MindUpTheme
+import com.yeditepe.minduplast.ui.theme.MindUpLastTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         splashScreen.setKeepOnScreenCondition { false }
 
         setContent {
-            MindUpTheme {
+            MindUpLastTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
